@@ -40,7 +40,12 @@ func homePage(w http.ResponseWriter, r *http.Request){
 
 func serveCDA(w http.ResponseWriter, r *http.Request){
   p := &Page{Title: "Coeur D'Alene"}
-
   t, _ := template.ParseFiles("views/CDA.gohtml")
+  t.Execute(w, p)
+}
+
+func serveAboutPage(w http.ResponseWriter, r *http.Request){
+  p := &Page{Title: "About"}
+  t, _ := template.ParseFiles("views/about.gohtml")
   t.Execute(w, p)
 }
