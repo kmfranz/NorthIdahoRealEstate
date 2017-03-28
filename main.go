@@ -20,6 +20,7 @@ func main(){
   //router := mux.NewRouter().StrictSlash(true)
 
   http.HandleFunc("/", homePage)
+  http.HandleFunc("/coeurdalene", serveCDA)
 
   http.Handle("/resources/", http.StripPrefix("/resources/", http.FileServer(http.Dir("resources"))))
 
@@ -35,5 +36,11 @@ func homePage(w http.ResponseWriter, r *http.Request){
 
   t, _ := template.ParseFiles("views/index.gohtml")
   t.Execute(w, p)
+}
 
+func serveCDA(w http.ResponseWriter, r *http.Request){
+  p := &Page{Title: "Coeur D'Alene"}
+
+  t, _ := template.ParseFiles("views/CDA.gohtml")
+  t.Execute(w, p)
 }
