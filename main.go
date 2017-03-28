@@ -18,8 +18,8 @@ type Page struct{
 
 
 func main(){
-  port := ":8080"
-  
+  port := ":8089"
+
   //router := mux.NewRouter().StrictSlash(true)
 
   http.HandleFunc("/", homePage)
