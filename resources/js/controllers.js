@@ -10,9 +10,9 @@ $(document).ready(function(){
 	})
 
 	$('.kf-navbar span img').hover(function(){
-		$(this).attr('src', 'images/mini logo hover.png');
+		$(this).attr('src', '/resources/images/mini logo hover.png');
 	}, function(){
-		$(this).attr('src', 'images/mini logo.png');
+		$(this).attr('src', '/resources/images/mini logo.png');
 	})
 
 	$('.city-images-mobile div').hover(function(){
@@ -25,9 +25,9 @@ $(document).ready(function(){
 
 	//about page
 	$('.nav-bar-white span img').hover(function(){
-		$(this).attr('src', 'images/mini logo.png');
+		$(this).attr('src', '/resources/images/mini logo.png');
 	}, function(){
-		$(this).attr('src', 'images/mini logo hover.png');
+		$(this).attr('src', '/resources/images/mini logo hover.png');
 	})
 
 

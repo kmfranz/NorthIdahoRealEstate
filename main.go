@@ -15,16 +15,20 @@ type Page struct{
   Body []byte
 }
 
-func main(){
 
+
+func main(){
+  port := ":8080"
+  
   //router := mux.NewRouter().StrictSlash(true)
 
   http.HandleFunc("/", homePage)
   http.HandleFunc("/coeurdalene", serveCDA)
+  http.HandleFunc("/about", serveAboutPage)
 
   http.Handle("/resources/", http.StripPrefix("/resources/", http.FileServer(http.Dir("resources"))))
 
-  log.Fatal(http.ListenAndServe(":8080", nil))
+  log.Fatal(http.ListenAndServe(port, nil))
 }
 
 func Index(w http.ResponseWriter, r *http.Request){
