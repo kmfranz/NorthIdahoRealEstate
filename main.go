@@ -36,7 +36,7 @@ func Index(w http.ResponseWriter, r *http.Request){
 }
 
 func homePage(w http.ResponseWriter, r *http.Request){
-  p := &Page{Title: "Home"}
+  p := &Page{Title: "North Idaho"}
 
   t, _ := template.ParseFiles("views/index.gohtml")
   t.Execute(w, p)
