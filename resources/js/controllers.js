@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 	$('.mobile-current-city').click(function(){
 		console.log('Here')
-		if($('.hidden-city-menu').css('display') == 'none'){
+		if(!$('.rotate').hasClass('up')){
 			$('.hidden-city-menu').slideDown({duration: 600, easing:"easeOutQuart"})
 			$('.rotate').toggleClass("up");
 		} else{
