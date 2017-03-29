@@ -1,6 +1,8 @@
 <html>
 	<head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<script
   			src="https://code.jquery.com/jquery-3.2.1.min.js"
  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -14,6 +16,8 @@
 
 		<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <title>{{.Title}}</title>
 
 
@@ -21,6 +25,51 @@
 
 
 	<body>
+
+    <!--
+
+      Mobile
+
+
+
+    -->
+
+    <div class = 'mobile-top-bar'>
+      <img src = '/resources/images/BG Logo.png'></img>
+    </div>
+
+    <div class = 'mobile-nav-bar'>
+			<div class = 'mobile-nav-centering'>
+        <div class = 'col-xs-3'>HOME</div>
+				<div class = 'col-xs-3'>ABOUT</div>
+				<div class = 'col-xs-3'>CALL</div>
+				<div class = 'col-xs-3'>EMAIL</div>
+			</div>
+		</div>
+
+    <div class = 'mobile-city-select'>
+      <div class = 'mobile-current-city mobile-city-item'>
+        COUER D'ALENE
+
+        <div class = 'city-select-arrow'>
+          <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <!--
+
+      Desktop
+
+
+
+    -->
+
 
 		<div class = 'nav-bar-white'>
 			<span><img src = '/resources/images/mini logo hover.png'></img></span>
@@ -51,6 +100,10 @@
 					</div>
 				</div>
 
+        <div class = 'border-divider-mobile'>
+
+				</div>
+
 
 				<div class = 'detail-body-quote'>
 					Coeur d’Alene is known for is beautiful lakes and thriving community.
@@ -63,9 +116,16 @@
 				<div class = 'border-divider'>
 
 				</div>
+        <div class = 'border-divider-mobile'>
 
-				<div class = 'detail-hero-container margin-bottom-img'>
-					<img src = '/resources/images/CDA-1.jpg'>
+				</div>
+
+				<div class = 'detail-hero-container margin-bottom-img zoom-in-1'>
+            <img src = '/resources/images/CDA-1.jpg'>
+				</div>
+
+        <div class = 'border-divider-mobile'>
+
 				</div>
 
 				<div class = 'border-divider'>
@@ -114,24 +174,28 @@
 
 				</div>
 
+        <div class = 'border-divider-mobile'>
+
+				</div>
+
 				<div class = 'details-3-cols-img'>
 					<div class = 'row'>
-						<div class = 'col-sm-4 far-left'>
-							<img src = '/resources/images/CDA-2.jpg'></img>
+						<div class = 'col-sm-4 far-left detail-sm-img'>
+							<img class = 'col-img-sub' src = '/resources/images/CDA-2.jpg'></img>
 							<h2>OUTDOOR LIFE</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla leo nunc dictum et bibendum.
 							</p>
 						</div>
-						<div class = 'col-sm-4 middle-img'>
-							<img src = '/resources/images/CDA-3.jpg'></img>
+						<div class = 'col-sm-4 middle-img detail-sm-img'>
+							<img class = 'col-img-sub' src = '/resources/images/CDA-3.jpg'></img>
 							<h2>ENTERTAINMENT</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla leo nunc dictum et bibendum.
 							</p>
 						</div>
-						<div class = 'col-sm-4 far-right'>
-							<img src = '/resources/images/CDA-4.jpg'></img>
+						<div class = 'col-sm-4 far-right detail-sm-img'>
+							<img class = 'col-img-sub' src = '/resources/images/CDA-4.jpg'></img>
 							<h2>COMMUNITY</h2>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla leo nunc dictum et bibendum.
@@ -144,15 +208,24 @@
 
 				</div>
 
+        <div class = 'border-divider-mobile'>
+
+				</div>
+
+
 				<div class = 'detail-2-cols-img'>
 					<div class = 'row'>
-						<div class = 'col-sm-6 far-left-6'>
+						<div class = 'col-sm-6 far-left-6 col-2-img'>
 							<img src = '/resources/images/CDA-5.jpg'></img>
 						</div>
-						<div class = 'col-sm-6 far-right-6'>
+						<div class = 'col-sm-6 far-right-6 col-2-img'>
 							<img src = '/resources/images/CDA-6.jpg'></img>
 						</div>
 					</div>
+				</div>
+
+        <div class = 'border-divider-mobile'>
+
 				</div>
 
 				<div class = 'detail-body-quote'>
@@ -163,6 +236,9 @@
 					Today, Coeur d'Alene remains the center of business and recreational activity in the Inland Northwest complete with festivals, fairs, concerts, unique bistros, and elegant restaurants, thriving downtown, mall shopping and much more. Its strong presence is found in state government and its increased economic development over the past several years is remarkable. Coeur d'Alene continues to grow and prosper in the new millennium.
 				</div>
 
+        <div class = 'border-divider-mobile'>
+
+				</div>
 
 				<div class = 'google-maps-container'>
 					<div id="map"></div>
@@ -184,6 +260,25 @@
 					<div class = 'col-xs-2'>HAYDEN LAKE</div>
 				</div>
 			</div>
+
+
+      <div class = 'mobile-city-select'>
+        <div class = 'mobile-current-city mobile-city-item'>
+          COUER D'ALENE
+
+          <div class = 'city-select-arrow'>
+            <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class = 'return-to-top'>
+        RETURN TO HOME
+      </div>
+
+      <div class = 'mobile-top-bar'>
+        <img src = '/resources/images/BG Logo.png'></img>
+      </div>
 
 
 
