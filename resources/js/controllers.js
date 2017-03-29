@@ -49,6 +49,18 @@ $(document).ready(function(){
 	});
 
 
+	$('.mobile-current-city').click(function(){
+		console.log('Here')
+		if($('.hidden-city-menu').css('display') == 'none'){
+			$('.hidden-city-menu').slideDown({duration: 600, easing:"easeOutQuart"})
+			$('.rotate').toggleClass("up");
+		} else{
+			$('.hidden-city-menu').slideUp({duration: 600, easing:"easeOutQuart"})
+			$('.rotate').toggleClass("up");
+		}
+	})
+
+
 	//resize small cells
 	//console.log($(this).width())
 
