@@ -30,12 +30,33 @@ $(document).ready(function(){
 		$(this).attr('src', '/resources/images/mini logo hover.png');
 	})
 
+	$('.photo-grid-container .photo-link').click(function(){
+
+		link_id = $(this).attr('id')
+		cur_href = window.location.href;
+
+		window.location.href = cur_href + link_id;
+
+	});
+
+	$('.city-images-mobile .mobile-city-link').click(function(){
+
+		link_id = $(this).attr('id')
+		cur_href = window.location.href;
+
+		window.location.href = cur_href + link_id;
+
+	});
+
 
 	//resize small cells
 	//console.log($(this).width())
 
 });
 
+function loadPage(page_name){
+	window.location.href = window.location.protocol + "//" + window.location.host + "/" + page_name;
+}
 
 //resizing the custom image cells
 
