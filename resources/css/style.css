@@ -571,11 +571,13 @@ color: #08263e !important;
 }
 
 .awards-section{
-	padding-left: 40px;
+  padding-left: 40px;
+	padding-right: 40px;
 	margin-bottom: 77px;
 }
 .other-about-section{
-	padding-left: 40px;
+  padding-left: 40px;
+	padding-right: 40px;
 }
 .awards-section h4{
 	font-family: Montserrat;
@@ -621,7 +623,8 @@ color: #08263e !important;
 	padding-bottom: 32px;
 	font-size: 24px;
 	color: #0e3555;
-	margin-top: 90px;
+	margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .nav-bar-white{
@@ -701,6 +704,7 @@ color: #08263e !important;
 	padding-right: 8%;
   border-top: 1px solid #E4E5E8;
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .about-container div img{
@@ -1320,5 +1324,13 @@ color: #08263e !important;
   display: block;
 }
 
+.about-testimonial{
+  margin-bottom: 0px;
+  margin-top: 90px;
+}
+
+.about-container{
+  margin-bottom: 0px;
+}
 
 }
