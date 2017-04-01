@@ -53,7 +53,7 @@
 
     <div class = 'mobile-city-select'>
       <div class = 'mobile-current-city mobile-city-item'>
-        COUER D'ALENE
+        RATHDRUM
 
         <div class = 'city-select-arrow'>
           <i class="fa fa-caret-down fa-lg rotate" aria-hidden="true"></i>
@@ -62,19 +62,19 @@
       </div>
 
       <div class = 'hidden-city-menu'>
-        <div class = 'mobile-city-item' onclick = 'loadPage("lakefernan")'>
+        <div class = 'mobile-city-item' onclick = 'loadPage("coeurdalene")'>
+          COUER D'ALENE
+        </div>
+        <div class = 'mobile-city-item' onclick="loadPage('lakefernan')">
           LAKE FERNAN
         </div>
-        <div class = 'mobile-city-item' onclick = 'loadPage("sandpoint")'>
+        <div class = 'mobile-city-item' onclick="loadPage('sandpoint')">
           SANDPOINT
         </div>
-        <div class = 'mobile-city-item' onclick = 'loadPage("rathdrum")'>
-          RATHDRUM
-        </div>
-        <div class = 'mobile-city-item' onclick = 'loadPage("postfalls")'>
+        <div class = 'mobile-city-item' onclick='loadPage("postfalls")'>
           POST FALLS
         </div>
-        <div class = 'mobile-city-item' onclick = 'loadPage("haydenlake")'>
+        <div class = 'mobile-city-item' onclick="loadPage('haydenlake')">
           HAYDEN LAKE
         </div>
       </div>
@@ -100,10 +100,10 @@
 
 		<div class = 'cities' style = 'text-align:center;'>
 			<div class = 'cities-bar row'>
-				<div class = 'col-xs-2 cities-bar-active'>COEUR D'ALENE</div>
+				<div class = 'col-xs-2' onclick = 'loadPage("coeurdalene")'>COEUR D'ALENE</div>
 				<div class = 'col-xs-2' onclick = 'loadPage("lakefernan")'>LAKE FERNAN</div>
-				<div class = 'col-xs-2' onclick = 'loadPage("sandpoint")' >SANDPOINT</div>
-				<div class = 'col-xs-2' onclick = 'loadPage("rathdrum")'>RATHDRUM</div>
+				<div class = 'col-xs-2' onclick = 'loadPage("sandpoint")'>SANDPOINT</div>
+				<div class = 'col-xs-2  cities-bar-active' >RATHDRUM</div>
 				<div class = 'col-xs-2' onclick = 'loadPage("postfalls")'>POST FALLS</div>
 				<div class = 'col-xs-2' onclick = 'loadPage("haydenlake")'>HAYDEN LAKE</div>
 			</div>
@@ -116,7 +116,7 @@
 					<img src = '/resources/images/CDA-detail-large.jpg'>
 
 					<div class = 'detail-hero-text'>
-						COEUR D'ALENE
+						RATHDRUM
 					</div>
 				</div>
 
@@ -270,16 +270,16 @@
 			</div>
 
 
-			<div class = 'cities large-bot-margin' style = 'text-align:center;'>
-				<div class = 'cities-bar row'>
-					<div class = 'col-xs-2 cities-bar-active'>COEUR D'ALENE</div>
-					<div class = 'col-xs-2' onclick = 'loadPage("lakefernan")'>LAKE FERNAN</div>
-					<div class = 'col-xs-2' onclick = 'loadPage("sandpoint")' >SANDPOINT</div>
-					<div class = 'col-xs-2' onclick = 'loadPage("rathdrum")'>RATHDRUM</div>
-					<div class = 'col-xs-2' onclick = 'loadPage("postfalls")'>POST FALLS</div>
-					<div class = 'col-xs-2' onclick = 'loadPage("haydenlake")'>HAYDEN LAKE</div>
-				</div>
-			</div>
+      <div class = 'cities' style = 'text-align:center;'>
+  			<div class = 'cities-bar row'>
+  				<div class = 'col-xs-2' onclick = 'loadPage("coeurdalene")'>COEUR D'ALENE</div>
+  				<div class = 'col-xs-2' onclick = 'loadPage("lakefernan")'>LAKE FERNAN</div>
+  				<div class = 'col-xs-2' onclick = 'loadPage("sandpoint")'>SANDPOINT</div>
+  				<div class = 'col-xs-2  cities-bar-active' >RATHDRUM</div>
+  				<div class = 'col-xs-2' onclick = 'loadPage("postfalls")'>POST FALLS</div>
+  				<div class = 'col-xs-2' onclick = 'loadPage("haydenlake")'>HAYDEN LAKE</div>
+  			</div>
+  		</div>
 
       <div class = 'mobile-top-bar'>
         <img src = '/resources/images/BG Logo.png'></img>
