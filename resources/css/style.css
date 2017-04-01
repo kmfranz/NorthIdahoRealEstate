@@ -33,6 +33,12 @@
 	src: url("fonts/proxima-nova-light.otf") format("opentype");;
 }
 
+@font-face{
+	font-family: ProximaNova;
+	font-weight: 400;
+	src: url("fonts/proxima-nova-semibold.otf") format("opentype");;
+}
+
 html, body{
   max-width: 100%;
     overflow-x: hidden;
@@ -367,8 +373,8 @@ Mobile Detail Page
 	transform: translateY(-50%);
 	color: white;
 	text-align: center;
-	font-family: Montserrat;
-	font-weight: 300;
+	font-family: ProximaNova;
+	font-weight: 400;
 	letter-spacing: 2px;
 	font-size: 28px;
 
@@ -922,11 +928,12 @@ color: #08263e !important;
 	padding-bottom: 60px;
 
 	font-family: Charter;
-	font-size: 30px;
+	font-size: 28px;
 
  	color: #08263e;
  	padding-left: 80px;
  	padding-right: 80px;
+  letter-spacing: 1px;
 
 }
 
