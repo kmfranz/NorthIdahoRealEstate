@@ -64,6 +64,10 @@ Mobile Detail Page
   display: none;
 }
 
+.profile-container-desktop{
+  display: none;
+}
+
 .mobile-city-item{
   background-color: white;
   text-align: center;
@@ -104,6 +108,23 @@ Mobile Detail Page
 .detail-hero-text{
   display: none;
 }
+
+.profile-container {
+      background-repeat: no-repeat;
+      background-position: 50%;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      background-image: url('/resources/images/BrianGuswiler.jpg');
+      background-size: cover;
+      background-position: 0px -4px;
+      text-align: center;
+      margin:auto;
+      margin-top: -30px;
+      margin-bottom: 30px;
+}
+
+
 
 .detail-body-quote{
   font-family: Charter;
@@ -676,6 +697,8 @@ color: #08263e !important;
 	padding-top: 78px;
 	padding-left: 8%;
 	padding-right: 8%;
+  border-top: 1px solid #E4E5E8;
+  margin-top: 25px;
 }
 
 .about-container div img{
@@ -687,9 +710,9 @@ color: #08263e !important;
 }
 
 .about-container div h1{
-	font-family: Montserrat;
+	font-family: ProximaNova;
 	letter-spacing: 3px;
-	font-weight: 300;
+	font-weight: regular;
 	margin-top: 0px;
 }
 .profile-description{
@@ -697,17 +720,21 @@ color: #08263e !important;
 }
 
 .about-email{
-	font-family: Montserrat;
+	font-family: ProximaNova;
+  font-weight: regular;
 	font-size: 14px;
 	color: #1f487b;
 	cursor: pointer;
+  letter-spacing: 0.5px;
 }
 
 .about-phone{
-	font-family: Montserrat;
+  font-family: ProximaNova;
+  font-weight: regular;
 	font-size: 14px;
 	color: #1f487b;
 	cursor: pointer;
+  letter-spacing: 0.5px;
 }
 
 .about-wrapper{
@@ -1240,5 +1267,28 @@ color: #08263e !important;
   display: none;
 }
 
+.yellow-active{
+  color: #e8b943 !important;
+}
 
+.about-header-image img{
+  margin: auto;
+  display:block;
+  width: 100%;
+  max-width: 400px;
+}
+
+.about-header-image{
+  padding: 30px;
+  border-top: 1px solid #E4E5E8;
+  margin-top: 25px;
+}
+
+.profile-container{
+  display: none;
+}
+
+.profile-container-desktop{
+  display: block;
+}
 }
