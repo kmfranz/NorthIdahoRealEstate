@@ -115,7 +115,7 @@ Mobile Detail Page
 }
 
 .border-divider-mobile{
-  border-top: solid 1px #989ea5;
+  border-top: solid 1px #c8cbd2;
   margin-top: 40px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -385,7 +385,8 @@ Mobile Detail Page
 .mobile-stats-kf{
 	display: block;
 	width: 100%;
-	margin-top: -50px;
+	margin-top: -40px;
+  margin-bottom: 50px;
 }
 
 .mobile-footer-home{
@@ -469,7 +470,7 @@ color: #08263e !important;
 	background-color: white;
 	height: 112px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
 }
 
 .return-to-top{
