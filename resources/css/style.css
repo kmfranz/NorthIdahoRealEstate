@@ -827,6 +827,7 @@ color: #08263e !important;
 .kf-link{
 	cursor: pointer;
 	letter-spacing: 3.2px;
+  font-weight: regular;
 }
 
 .kf-link:hover {
