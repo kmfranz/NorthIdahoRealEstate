@@ -757,7 +757,7 @@ color: #08263e !important;
 .hover-box{
 	position: absolute;
 	top: 1px;
-  
+
 	bottom: 0px;
 	right:0px;
 	left: 0px;
@@ -780,7 +780,7 @@ color: #08263e !important;
 	font-family: Montserrat;
 	text-align: center;
 	margin: auto;
-	font-weight: bold;
+	font-weight: 300;
 	letter-spacing: 2px;
 }
 
