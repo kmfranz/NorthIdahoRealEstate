@@ -756,7 +756,7 @@ color: #08263e !important;
 
 .hover-box{
 	position: absolute;
-	top: 0px;
+	top: 1px;
 	bottom: 0px;
 	right:0px;
 	left: 0px;
