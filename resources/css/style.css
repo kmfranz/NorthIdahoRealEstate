@@ -335,6 +335,10 @@ Mobile Detail Page
 	height: 62px;
 }
 
+.mobile-nav-bar div div{
+  cursor: pointer;
+}
+
 .mobile-nav-centering{
 	max-width: 300px;
 	margin: auto;
