@@ -136,6 +136,20 @@ Mobile Detail Page
   color: #1f2532;
   line-height: 22px;
 }
+.mobile-footer-social-images{
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  padding-top:24px;
+}
+
+.mobile-footer-social-images span img{
+  width: 30px;
+  margin-left: 10px;
+  text-align: center;
+  display: inline-block;
+}
 
 .zoom-in-1 img{
   width: 175%;
@@ -949,6 +963,8 @@ color: #08263e !important;
 	display: block;
   color:white !important;
 }
+
+
 
 .social-footer-text{
 	padding-top: 30px;
