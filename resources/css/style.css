@@ -121,6 +121,11 @@ Mobile Detail Page
 	margin-right: 50px;
 }
 
+.home-mobile-div{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .detail-body-paragraph{
   text-align: center;
   padding-left: 32px;
@@ -442,7 +447,8 @@ color: #08263e !important;
 .mobile-stats-detail-description{
 	font-size: 11px;
 	color: #0e3555;
-	padding-right: 15px;
+	padding-right: 50px;
+  max-width: 300px;
 }
 
 .mobile-stats-number{
