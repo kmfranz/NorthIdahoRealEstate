@@ -318,6 +318,7 @@ Mobile Detail Page
 
 .photo-grid-container div img{
 	width: 100%;
+  background-color: black;
 }
 
 .photo-grid-container{
@@ -712,7 +713,6 @@ color: #08263e !important;
 
 .photo-grid-container{
 	display: block;
-  background-color: black;
 }
 
 .photo-grid-container div{
