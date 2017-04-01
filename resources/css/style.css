@@ -243,26 +243,27 @@ Mobile Detail Page
 }
 
 
-
-
-
-
-
-
-
 .mobile-top-bar{
 		display: block;
 		padding: 40px;
     padding-left: 95px;
     padding-right: 95px;
 		background-color: #0e3555;
+    position: relative;
 }
 
 .mobile-top-bar img{
 	width: 100%;
-	max-width: 400px;
+	max-width: 325px;
 	margin: auto;
 	display: block;
+}
+.mobile-top-bar .ham{
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
 }
 
 .mobile-nav-bar{
