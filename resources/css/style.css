@@ -823,6 +823,7 @@ color: #08263e !important;
 	margin-right: 12.5px;
 }
 
+
 .kf-link{
 	cursor: pointer;
 	letter-spacing: 3.2px;
@@ -830,6 +831,8 @@ color: #08263e !important;
 
 .kf-link:hover {
 	color: #1f487b;
+  font-family: Montserrat;
+  font-weight: regular;
 }
 
 .stats-container{
@@ -872,6 +875,7 @@ color: #08263e !important;
 	width: 70%;
   max-width: 175px;
   font-weight: 200;
+  letter-spacing: 0.75px;
 }
 .desktop-social-images{
 	padding-top: 30px;
