@@ -25,6 +25,7 @@
 }
 @font-face{
 	font-family: ProximaNova;
+  font-weight: regular;
 	src: url("fonts/proxima-nova.otf") format("opentype");;
 }
 @font-face{
@@ -64,15 +65,17 @@ Mobile Detail Page
 }
 
 .mobile-city-item{
-  background-color: #1f487b;
+  background-color: white;
   text-align: center;
   font-family: Montserrat;
+  font-weight: regular;
   letter-spacing: 4px;
-  color: white;
+  color: #1f487b;
   padding-top: 18px;
   padding-bottom: 20px;
-  font-weight: 300;
   font-size: 18px;
+
+  border-top: 1px solid #E4E5E8;
 
   display: inline-block;
   width: 100%;
@@ -133,8 +136,10 @@ Mobile Detail Page
   padding-top: 20px;
   font-size: 14px;
   font-family: ProximaNova;
+  font-weight: 300;
   color: #1f2532;
   line-height: 22px;
+  letter-spacing: 0.75px;
 }
 .mobile-footer-social-images{
   display: block;
@@ -181,6 +186,7 @@ Mobile Detail Page
 }
 
 .detail-stats-description{
+  margin: auto;
   font-family: Montserrat;
   font-weight: 200;
   font-size: 11px;
@@ -188,6 +194,9 @@ Mobile Detail Page
   padding-left: 80px;
   padding-right: 80px;
   margin-bottom: 30px;
+  margin-top: 10px;
+  max-width: 450px;
+
 }
 
 
@@ -205,25 +214,30 @@ Mobile Detail Page
 
 .detail-sm-img h2{
   font-family: ProximaNova;
+  font-weight: regular;
   font-size: 20px;
   line-height: 22px;
   margin-top:30px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
   text-align: center;
   color: #1f2532;
 }
 
 .detail-sm-img p{
   font-family: ProximaNova;
+  letter-spacing: 0.75px;
+  font-weight: 300;
   font-size: 14px;
   line-height: 22px;
   margin-top:12px;
-  letter-spacing: 0px;
   text-align: center;
   color: #1f2532;
   padding-left: 45px;
   padding-right: 45px;
   margin-bottom: 50px;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 35px;
 }
 
 .detail-2-cols-img{
@@ -291,16 +305,21 @@ Mobile Detail Page
 	font-family: Montserrat;
 	font-weight: regular;
 	letter-spacing: 3.2px;
-	color: #08263e;
-	padding: 14px;
+	color: #1f487b;
+  padding: 20px;
 	font-size: 17px;
 	width: 100%;
-	height: 50px;
+	height: 62px;
 }
 
 .mobile-nav-centering{
 	max-width: 300px;
 	margin: auto;
+  margin-bottom: 10px;
+}
+
+.detail-centering{
+  max-width: 400px;
 }
 
 .mobile-hero{
@@ -585,21 +604,21 @@ color: #08263e !important;
 .nav-bar-white{
 	height: 50px;
 	width: 100%;
-	padding: 30px;
+	padding: 20px;
 	padding-left: 50px;
 	padding-top: 25px;
-	height: 50px;
+	height: 55px;
 }
 
 .cities-bar{
-	max-width: 1100px;
+	max-width: 1000px;
 	margin: auto;
 	font-family: Montserrat;
 	cursor: pointer;
 	letter-spacing: 3.2px;
 	color: #1f487b;
 	display: block;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .cities-bar div:hover{
@@ -1014,8 +1033,12 @@ color: #08263e !important;
 }
 
 .details-3-cols-img {
-	margin-top: 110px;
-	margin-bottom: 110px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.google-maps-container{
+  margin-top: 20px;
 }
 
 .details-3-cols-img div div img{
@@ -1024,7 +1047,9 @@ color: #08263e !important;
 
 .details-3-cols-img div div h2{
 	font-family: ProximaNova;
-	font-size: 24px;
+  font-weight: regular !important;
+	font-size: 20px;
+  letter-spacing: 0.75px;
 	color: #1f2532;
 	text-align: center;
 	margin-top: 61px;
@@ -1053,6 +1078,7 @@ color: #08263e !important;
 }
 .detail-body-paragraph{
 	text-align: center;
+  letter-spacing: 0.95px;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding-left: 70px;
@@ -1060,7 +1086,8 @@ color: #08263e !important;
 	font-family: ProximaNova;
 	font-weight: 300;
 	font-size: 18px;
-	padding-bottom: 90px;
+  line-height: 27px;
+	padding-bottom: 50px;
 	margin-bottom: 0px;
 	color: #1f2532;
 }
@@ -1068,13 +1095,13 @@ color: #08263e !important;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 80px;
-	padding-top: 90px;
+	padding-top: 50px;
 	text-align: center;
-	border-top: solid 1px #989ea5;
+	border-top: solid 1px #E4E5E8;
 	font-family: Charter;
 	font-size: 24px;
 	color: #08263e;
-	padding-bottom: 35px;
+	padding-bottom: 5px;
 }
 
 .margin-bottom-img{
@@ -1088,7 +1115,7 @@ color: #08263e !important;
 }
 
 .border-divider{
-	border-top: solid 1px #989ea5;
+	border-top: solid 1px #E4E5E8;
 	margin-bottom: 40px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -1161,7 +1188,7 @@ color: #08263e !important;
 	color: #0e3555;
 	font-family: Montserrat;
 	font-size: 12px;
-	margin-top: 40px;
+	margin-top: 12px;
 	font-weight: 300;
 	margin-bottom: 8px;
 	padding-left: 30px;
@@ -1176,6 +1203,7 @@ color: #08263e !important;
 	margin-bottom: 80px;
 	padding-left: 30px;
 	padding-right: 30px;
+  max-width: 300px;
 }
 
 .nav-bar-white{
