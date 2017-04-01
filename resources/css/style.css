@@ -261,9 +261,9 @@ Mobile Detail Page
 .mobile-top-bar .ham{
   width: 25px;
   position: absolute;
-  top: 50%;
+  top: 46%;
   transform: translateY(-50%);
-  right: 50px;
+  right: 45px;
 }
 
 .mobile-nav-bar{
