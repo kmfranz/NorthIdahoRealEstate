@@ -716,6 +716,8 @@ color: #08263e !important;
 	letter-spacing: 3px;
 	font-weight: regular;
 	margin-top: 0px;
+  font-size: 20px;
+  text-align: center;
 }
 .profile-description{
 	padding-left: 40px;
@@ -723,21 +725,11 @@ color: #08263e !important;
 }
 
 .about-email{
-	font-family: ProximaNova;
-  font-weight: regular;
-	font-size: 14px;
-	color: #1f487b;
-	cursor: pointer;
-  letter-spacing: 0.5px;
+	display: none;
 }
 
 .about-phone{
-  font-family: ProximaNova;
-  font-weight: regular;
-	font-size: 14px;
-	color: #1f487b;
-	cursor: pointer;
-  letter-spacing: 0.5px;
+  display: none;
 }
 
 .about-wrapper{
@@ -1297,4 +1289,36 @@ color: #08263e !important;
 .about-container.row{
   margin-top: 25px;
 }
+
+.about-container div h1{
+	font-family: ProximaNova;
+	letter-spacing: 3px;
+	font-weight: regular;
+	margin-top: 0px;
+  font-size: 24px;
+  text-align: left;
+  width: 100%;
+}
+
+.about-email{
+	font-family: ProximaNova;
+  font-weight: regular;
+	font-size: 14px;
+	color: #1f487b;
+	cursor: pointer;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+.about-phone{
+  font-family: ProximaNova;
+  font-weight: regular;
+	font-size: 14px;
+	color: #1f487b;
+	cursor: pointer;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+
 }
