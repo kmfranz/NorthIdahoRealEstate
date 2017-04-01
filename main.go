@@ -25,6 +25,7 @@ func main(){
   http.HandleFunc("/", homePage)
   http.HandleFunc("/coeurdalene", serveCDA)
   http.HandleFunc("/postfalls", servePF)
+  http.HandleFunc("/lakefernan", serveLF)
   http.HandleFunc("/about", serveAboutPage)
 
   http.Handle("/resources/", http.StripPrefix("/resources/", http.FileServer(http.Dir("resources"))))
@@ -51,6 +52,11 @@ func serveCDA(w http.ResponseWriter, r *http.Request){
 func servePF(w http.ResponseWriter, r *http.Request){
   p := &Page{Title: "Post Falls"}
   t, _ := template.ParseFiles("views/postfalls.gohtml")
+  t.Execute(w, p)
+}
+func serveLF(w http.ResponseWriter, r *http.Request){
+  p := &Page{Title: "Post Falls"}
+  t, _ := template.ParseFiles("views/lakefernan.gohtml")
   t.Execute(w, p)
 }
 
