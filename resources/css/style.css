@@ -243,6 +243,8 @@ Mobile Detail Page
 .mobile-top-bar{
 		display: block;
 		padding: 40px;
+    padding-left: 95px;
+    padding-right: 95px;
 		background-color: #0e3555;
 }
 
@@ -272,25 +274,19 @@ Mobile Detail Page
 }
 
 .mobile-hero{
-	width: 100%;
-	position: relative;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.mobile-hero img{
-	width: 100%;
-	position: relative;
-}
 
 .mobile-hero-text {
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	text-align: center;
-	color: white;
-	font-family: Charter;
-	font-size: 20px;
-
-	top: 25%;
+  color: #414671;
+  font-size: 23px;
+  line-height: 26px;
+  font-family: Charter;
 }
 
 .hero-container{
@@ -377,8 +373,22 @@ Mobile Detail Page
 .mobile-stats-kf{
 	display: block;
 	width: 100%;
-	background-color: red;
 	margin-top: -50px;
+}
+
+.mobile-footer-home{
+  background-color: #0e3555;
+  padding: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.mobile-footer-home img{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
 }
 
 .spacer-div{
@@ -394,6 +404,14 @@ color: #08263e !important;
 .mobile-stats-number{
 	float: left;
 }
+.mobile-stats-number sup{
+  vertical-align: top;
+  position: relative;
+  top: 1.0em;
+  left: 0.15em;
+  font-size: 23px;
+  font-weight: 200;
+}
 .mobile-stats-details{
 	float: right;
 	width: 65%;
@@ -402,7 +420,7 @@ color: #08263e !important;
 }
 .mobile-stats-detail-title{
 	font-family: Montserrat;
-	color: #d3dde5;
+	color: #0e3555;
 	letter-spacing: 2px;
 	font-weight: 300;
   font-size: 12px;
@@ -410,7 +428,7 @@ color: #08263e !important;
 
 .mobile-stats-detail-description{
 	font-size: 11px;
-	color: #d3dde5;
+	color: #0e3555;
 	padding-right: 15px;
 }
 
@@ -436,8 +454,10 @@ color: #08263e !important;
 }
 
 .mobile-stat-row{
-	background-color: green;
+	background-color: white;
 	height: 112px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .return-to-top{
@@ -692,6 +712,7 @@ color: #08263e !important;
 
 .photo-grid-container{
 	display: block;
+  background-color: black;
 }
 
 .photo-grid-container div{
@@ -724,8 +745,8 @@ color: #08263e !important;
 
 .photo-subtitle{
 	font-family: Montserrat;
-	font-weight: 300;
-	letter-spacing: 2px;
+	font-weight: 200;
+	letter-spacing: 2.5px;
 	position: absolute;
 	bottom: 12px;
 	left: 30px;
@@ -815,25 +836,41 @@ color: #08263e !important;
 	width: 100%;
 	left: 0px;
 	height: 135px;
-	bottom: 0px;
+	bottom: 50px;
 }
 
 .stat-num{
 	font-size: 32px;
 	font-family: Montserrat;
+  font-weight: regular;
 	color: #e8b943;
+}
+
+
+
+.stat-num sup {
+  vertical-align: top;
+  position: relative;
+  top: 0.9em;
+  left: 0.15em;
+  font-size: 19px;
+  font-weight: 200;
 }
 
 .stat-title{
 	color: #becbd6;
 	font-family: Montserrat;
 	font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 23px;
 }
 
 .stat-description{
 	font-size: 11px;
 	color: #becbd6;
 	width: 70%;
+  max-width: 175px;
+  font-weight: 200;
 }
 .desktop-social-images{
 	padding-top: 30px;
@@ -873,7 +910,6 @@ color: #08263e !important;
 }
 
 .social-footer-text{
-	border-top: solid 1px #989ea5;
 	padding-top: 60px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -1100,6 +1136,10 @@ color: #08263e !important;
 
 .col-2-img {
   margin-bottom: inherit;
+}
+
+.mobile-footer-home{
+  display: none;
 }
 
 
