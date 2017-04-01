@@ -828,13 +828,14 @@ color: #08263e !important;
 .kf-link{
 	cursor: pointer;
 	letter-spacing: 3.2px;
-  font-weight: 200 !important;
+  font-weight: regular !important;
+  font-size: 10px;
 }
 
 .kf-link:hover {
 	color: #1f487b;
   font-family: Montserrat;
-  font-weight: 200;
+  font-weight: regular;
 }
 
 .stats-container{
