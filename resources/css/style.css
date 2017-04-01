@@ -51,7 +51,9 @@ Mobile Detail Page
 
 *****************/
 
-
+.about-container.row{
+  margin-top: 0px;
+}
 .nav-bar-white{
   display: none;
 }
@@ -1291,5 +1293,8 @@ color: #08263e !important;
 
 .profile-container-desktop{
   display: block;
+}
+.about-container.row{
+  margin-top: 25px;
 }
 }
