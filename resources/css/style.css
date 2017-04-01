@@ -795,7 +795,7 @@ color: #08263e !important;
 
 .hero-logo{
 	position: absolute;
-	transform: scale(0.75) translateY(-100%) translateX(-62.5%);
+	transform: scale(0.75) translateY(-170%) translateX(-62.5%);
 	top: 50%;
 	left: 50%;
 }
