@@ -58,22 +58,22 @@ func servePF(w http.ResponseWriter, r *http.Request){
   t.Execute(w, p)
 }
 func serveLF(w http.ResponseWriter, r *http.Request){
-  p := &Page{Title: "Post Falls"}
+  p := &Page{Title: "Lake Fernan"}
   t, _ := template.ParseFiles("views/lakefernan.gohtml")
   t.Execute(w, p)
 }
 func serveHL(w http.ResponseWriter, r *http.Request){
-  p := &Page{Title: "Post Falls"}
+  p := &Page{Title: "Hayden Lake"}
   t, _ := template.ParseFiles("views/haydenlake.gohtml")
   t.Execute(w, p)
 }
 func serveRD(w http.ResponseWriter, r *http.Request){
-  p := &Page{Title: "Post Falls"}
+  p := &Page{Title: "Rathdrum"}
   t, _ := template.ParseFiles("views/rathdrum.gohtml")
   t.Execute(w, p)
 }
 func serveSP(w http.ResponseWriter, r *http.Request){
-  p := &Page{Title: "Post Falls"}
+  p := &Page{Title: "Sandpoint"}
   t, _ := template.ParseFiles("views/sandpoint.gohtml")
   t.Execute(w, p)
 }
