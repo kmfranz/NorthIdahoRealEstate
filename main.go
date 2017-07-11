@@ -31,6 +31,8 @@ func main(){
   http.HandleFunc("/sandpoint", serveSP)
   http.HandleFunc("/about", serveAboutPage)
 
+  http.HandleFunc("/favicon.ico", faviconHandler)
+
   http.Handle("/resources/", http.StripPrefix("/resources/", http.FileServer(http.Dir("resources"))))
 
   log.Fatal(http.ListenAndServe(port, nil))
@@ -82,4 +84,8 @@ func serveAboutPage(w http.ResponseWriter, r *http.Request){
   p := &Page{Title: "About"}
   t, _ := template.ParseFiles("views/about.gohtml")
   t.Execute(w, p)
+}
+
+func faviconHandler(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "resources/images/favicon.ico")
 }
